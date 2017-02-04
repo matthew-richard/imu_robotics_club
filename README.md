@@ -2,6 +2,8 @@
 * To connect to RPi in Barton: SSH to IP **10.160.199.21** as username **pi**, password **raspberry**.
   Must be connected via ethernet to hopkins network.
   
+* To connect IMU to RPi: Use http://pinout.xyz
+  
 * As specified [here](http://selfbuilt.net/shop/gy-80-inertial-management-unit), the subcomponents of the GY-80 IMU
   are as follows:
     * Gyro -- L3G4200D
