@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 # Simple demo of of the ADXL345 accelerometer library.  Will print the X, Y, Z
 # axis acceleration values every half second.
 # Author: Tony DiCola
