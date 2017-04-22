@@ -53,12 +53,12 @@ class L3G4200D(object):
 
         self._device.write8(CTRL_REG3, 0b00001000)
 
-        scale = kwargs.get('scale', 2000)
+        scale = kwargs.get('scale', 250)
         if scale == 250:
             self._device.write8(CTRL_REG4, 0b00000000)
         elif scale == 500:
             self._device.write8(CTRL_REG4, 0b00010000)
-        else:
+        else: # scale == 2000
             self._device.write8(CTRL_REG4, 0b00110000)
 
         self._device.write8(CTRL_REG5, 0b00000000)

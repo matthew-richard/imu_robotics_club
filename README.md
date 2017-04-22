@@ -21,7 +21,9 @@
       all the hard work for us. (*Not sure--need to take a closer look at the code -- Matt*)
     * Likewise for the barometer/thermometer and [the Adafruit_Python_BMP package](https://github.com/adafruit/Adafruit_Python_BMP) </s>
     
-* Wrap everything in a "GY80" Python module with the following functions. Make sure to convert to metric units.
+* <s> Wrap everything in a "GY80" Python module with the following functions. Make sure to convert to metric units.
     * getTemperature()
     * getAcceleration()
-    * getOrientation()
+    * getOrientation() </s>
+
+* Convert GY80 module's output to metric units.
