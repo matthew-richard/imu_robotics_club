@@ -1,3 +1,7 @@
+This is a Python interface to the GY80 IMU ("inertial measurement unit") sensor, to be used by the JHU Robotics Club's Raspberry Pi.
+
+The IMU is really a combination of multiple sensors: an accelerometer (measures acceleration), a gyroscope (measures orientation), a magnetometer (measures compass bearing), and a barometer (measures temperature and pressure). We had to write our own I2C interfaces to the magnetometer and gyroscope!
+
 # Notes
 * To connect to RPi in Barton: SSH to IP **10.160.199.21** as username **pi**, password **raspberry**.
   Must be connected via ethernet to hopkins network.
